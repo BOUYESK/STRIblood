@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:background="@drawable/pngpro"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/back"
+            android:shadowColor="#FFFFFF"
+            android:layout_margin="10dp"
+            android:id="@+id/backToPrincipal"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageprofil"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/boss"
+                />
+
+            <ImageView
+                android:id="@+id/imageprofilchange"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="-40dp"
+                android:background="@drawable/bor"
+                android:src="@drawable/ic_photo_camera_black_24dp"
+
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/nameprofile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Name"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/emailprofile"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="25dp"
+                android:drawableLeft="@drawable/mail1"
+                android:drawablePadding="10dp"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/paddleft"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:background="#FF5752" />
+
+            <TextView
+                android:id="@+id/birthdayprofil"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/cal"
+                android:drawablePadding="10dp"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/paddleft"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text=""
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:background="#FF5752" />
+
+            <TextView
+                android:id="@+id/teleprofile"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/smartphone"
+                android:drawablePadding="10dp"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/paddleft"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:background="#FF5752" />
+
+            <TextView
+                android:id="@+id/weightprofile"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/scales"
+                android:drawablePadding="10dp"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/paddleft"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:background="#FF5752" />
+
+            <TextView
+                android:id="@+id/genderprofile"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/genders"
+                android:drawablePadding="10dp"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/paddleft"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:background="#FF5752" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

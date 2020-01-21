@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "405825821009",
+    "firebase_url": "https://striblood-23c62.firebaseio.com",
+    "project_id": "striblood-23c62",
+    "storage_bucket": "striblood-23c62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405825821009:android:a577bafd2b1d62e6915b70",
+        "android_client_info": {
+          "package_name": "com.example.striblood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405825821009-l9qdoc6d7b9a5vn1ppvftt97s31fios5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.striblood",
+            "certificate_hash": "43cc3731a9c3726fec3fd6753e1af2200affee7d"
+          }
+        },
+        {
+          "client_id": "405825821009-ar4brle4cdlb73pri8t44d8nudno95go.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4Hpj397nINejcA2CI0qAp9b-cZSI6bRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405825821009-ar4brle4cdlb73pri8t44d8nudno95go.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
